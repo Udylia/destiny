@@ -1,0 +1,24 @@
+.header, .image-container, .btn {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #2dd587;
+}
+
+h1, h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.btnOne, .btnTwo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.btnOne:hover, .btnTwo:hover {
+    background: linear-gradient(15deg, rgba(255,255,255,1) 0%, rgba(45,213,135,1) 100%);
+}
